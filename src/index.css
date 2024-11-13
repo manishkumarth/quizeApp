@@ -1,0 +1,53 @@
+/* src/index.css */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.options button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.options button:hover {
+  background-color: #2980b9;
+}
+
+.result button {
+  background-color: #2ecc71;
+}
+
+.result button:hover {
+  background-color: #27ae60;
+}
